@@ -13,12 +13,14 @@ sudo systemctl stop tor
 ```
 sudo nano /etc/proxychains.conf
 ```
+## Remove ‘#’ from Dynamic chain and comment ‘#’ Strict chain and Random chain
+<img width="645" height="364" alt="Screenshot 2025-09-24 202656" src="https://github.com/user-attachments/assets/d2084aad-f899-40c5-b4e2-df7c375c0f38" />
 
-    Remove ‘#’ from Dynamic chain
-    comment ‘#’ Strict chain and Random chain
-    Remove ‘#’ from proxy DNS
-    write socks5 127.0.0.1 9050 in last line of proxy list
+## Remove ‘#’ from proxy DNS
+<img width="633" height="265" alt="Screenshot 2025-09-24 202725" src="https://github.com/user-attachments/assets/57302a66-770f-4e29-9b00-0b5e047c1ea7" />
 
+## Write socks5 127.0.0.1 9050 in last line of proxy list
+<img width="560" height="158" alt="Screenshot 2025-09-24 202736" src="https://github.com/user-attachments/assets/581663c8-1eed-4ff4-ba33-227c72e9d47e" />
 
 ## Start Tor again and test the dynamic proxychain
 ```
